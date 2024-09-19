@@ -1,10 +1,18 @@
 :root{
     --cor-principal: rgb(235, 6, 235);
-    --cor-secundaria: black;
+    --cor-secundaria: rgb(114, 20, 94);
     --botao-azul: rgb(112, 8, 133);
     --cor-fundo: black;
     
 }
 body{
     background-color: var(--cor-fundo);
+}
+.principal{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
 }
