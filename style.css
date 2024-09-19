@@ -5,6 +5,6 @@
     --cor-fundo: black;
     
 }
-<body{
-    background-color: var(--cor-fundo)
+body{
+    background-color: var(--cor-fundo);
 }
