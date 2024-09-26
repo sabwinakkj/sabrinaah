@@ -15,4 +15,17 @@ body{
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 505;
+}
+.container__botao{
+    background-color: beige;
+    border-radius: 5px;
+    padding: 1em;
+    color: black;
+    display: block;
+}
+.container__botao2{
+    background-color: beige;
+    border: 2px solid black;
 }
